@@ -1,0 +1,1 @@
+python ./../GcodeTransformator.py -i X12_F1000_1L.NC -o output/output.nc -t t3.py

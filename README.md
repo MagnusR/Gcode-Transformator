@@ -1,6 +1,7 @@
 # Gcode-Transformator
 A command line tool to transform Gcode using any arbitrary transformation function
 
+![Alt text](/images/Sphere-Transformation.jpg?raw=true "The Original toolpath and a transformed one")
 	
 ~~~~hgg
 Transformer.py [-h] -i INPUT -t TRANSFORMATION -o OUTPUT
