@@ -8,7 +8,7 @@ Transformer.py [-h] -i INPUT -t TRANSFORMATION -o OUTPUT
                       [-init_mpos INIT_MPOS INIT_MPOS INIT_MPOS]
                       [-init_cs INIT_CS]
 
-A Script to transform a planar gcode file by a supplied transformation
+A Script to transform a gcode file by a supplied transformation
 function
 
 optional arguments:
