@@ -38,7 +38,7 @@ The script takes an input gcode file, a transformation function (see examples in
 # Transformation functions accepted
 The transformation function should be .py file with a Transform() function in it, that accepts a 3-tuple and produces a transformed 3-tuple
 
-
+# License
 MIT License
 
 Copyright (c) 2017 Michael zlatin
