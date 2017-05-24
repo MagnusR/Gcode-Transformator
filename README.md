@@ -1,6 +1,8 @@
 # Gcode-Transformator
 A command line tool to transform Gcode using any arbitrary transformation function
 
+	
+~~~~
 Transformer.py [-h] -i INPUT -t TRANSFORMATION -o OUTPUT
                       [-f FACTIONIZE] [-fl FACTIONIZE_LENGTH]
                       [-init_mpos INIT_MPOS INIT_MPOS INIT_MPOS]
@@ -26,8 +28,8 @@ optional arguments:
                         factionize interval, 0.5 by default
   -init_mpos INIT_MPOS INIT_MPOS INIT_MPOS
                         initial XYZ position, 0,0,0 by default
-  -init_cs INIT_CS      initial cos, G54 by default
-  
+  -init_cs INIT_CS      initial cos, G54 by default	
+~~~~
 # Usage
 The script takes an input gcode file, a transformation function (see examples in transformations), and produces an output file
 
