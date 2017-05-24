@@ -6,7 +6,7 @@ import sys
 from gcode_machine import gcode_machine
 
 
-class trasnsformer:
+class GcodeTransformator:
 
     def main(self):
         self.parse_args()
@@ -103,5 +103,5 @@ class trasnsformer:
             gcm.done()
 
 if __name__ == "__main__":
-    t=trasnsformer()
+    t=GcodeTransformator()
     t.main()
