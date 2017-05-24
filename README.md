@@ -31,12 +31,12 @@ optional arguments:
                         initial XYZ position, 0,0,0 by default
   -init_cs INIT_CS      initial cos, G54 by default	
 ~~~~
-# Usage
+## Usage
 The script takes an input gcode file, a transformation function (see examples in transformations), and produces an output file
 
                       
 -FACTIONIZE flag breaks G1 moves longer the FACTIONIZE_LENGTH into smalle moves, this is needed for proper transformation onto curved surfaces etc, but increases file length.
-# Transformation functions accepted
+#### Transformation functions accepted
 The transformation function should be .py file with a Transform() function in it, that accepts a 3-tuple and produces a transformed 3-tuple
 
 # License
